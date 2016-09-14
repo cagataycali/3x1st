@@ -1,6 +1,6 @@
 {
   "name": "3x1st",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File exist?",
   "main": "index.js",
   "dependencies": {
