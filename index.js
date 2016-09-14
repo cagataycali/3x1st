@@ -3,7 +3,7 @@ var async = require('async');
 var colors = require('colors');
 
 module.exports = function (path) {
-  pathExists('~/.g3l.json')
+  pathExists(path)
     .then(function(exists) {exists ? resolve() : null;})
     .catch((err) => {reject()});
 }
