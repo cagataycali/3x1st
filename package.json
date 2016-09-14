@@ -1,0 +1,30 @@
+{
+  "name": "3x1st",
+  "version": "1.0.0",
+  "description": "File exist?",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.0.1",
+    "colors": "^1.1.2",
+    "path-exists": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagataycali/3x1st.git"
+  },
+  "keywords": [
+    "File",
+    "system",
+    "exist"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagataycali/3x1st/issues"
+  },
+  "homepage": "https://github.com/cagataycali/3x1st#readme"
+}
