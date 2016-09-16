@@ -3,5 +3,7 @@ var async = require('async');
 var colors = require('colors');
 
 module.exports = function (path) {
-  pathExists(path).then(function(exists) {exists ? resolve() : reject();})
+  return new Promise(function(resolve, reject) {
+    pathExists(path).then(function(exists) {exists ? resolve() : reject();})
+  });
 }
