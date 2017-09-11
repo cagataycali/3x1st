@@ -4,8 +4,6 @@
   "description": "File exist?",
   "main": "index.js",
   "dependencies": {
-    "async": "^2.0.1",
-    "colors": "^1.1.2",
     "path-exists": "^3.0.0"
   },
   "devDependencies": {},
